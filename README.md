@@ -4,19 +4,27 @@ Personal image hosting and asset repository.
 
 ## Structure
 
-- `icons/` — icons, logos, and small UI assets.
+```text
+icons/
+├─ agentdock/
+│  └─ chatgpt-mcp.png
+└─ ddns-go/
+   ├─ icon.png
+   └─ favicon.ico
+```
 
 ## Assets
 
-| File | Description |
-| --- | --- |
-| `icons/agentdock-logo-chatgpt-mcp.png` | AgentDock logo for ChatGPT MCP integration. |
-| `icons/ddns-go.png` | DDNS-GO icon converted from the official favicon. |
-| `icons/ddns-go.ico` | Original DDNS-GO favicon. |
+### AgentDock
+
+- `icons/agentdock/chatgpt-mcp.png` — AgentDock logo for ChatGPT MCP integration.
+
+### DDNS-GO
+
+- `icons/ddns-go/icon.png` — DDNS-GO icon converted from the official favicon.
+- `icons/ddns-go/favicon.ico` — Original DDNS-GO favicon.
 
 ## Raw URL
-
-Use the following format:
 
 ```text
 https://raw.githubusercontent.com/PosvdM/image-hosting/main/<path>
@@ -25,9 +33,12 @@ https://raw.githubusercontent.com/PosvdM/image-hosting/main/<path>
 Example:
 
 ```text
-https://raw.githubusercontent.com/PosvdM/image-hosting/main/icons/agentdock-logo-chatgpt-mcp.png
+https://raw.githubusercontent.com/PosvdM/image-hosting/main/icons/agentdock/chatgpt-mcp.png
 ```
 
 ## Naming
 
-Use lowercase filenames with hyphens between words. Keep assets grouped by type and avoid renaming files after they are publicly referenced.
+- Use lowercase filenames.
+- Use hyphens between words.
+- Group assets by project or product.
+- Prefer descriptive names such as `icon.png`, `logo.svg`, and `favicon.ico` inside project directories.
