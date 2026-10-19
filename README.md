@@ -11,6 +11,8 @@ icons/
 ├─ claude/
 │  ├─ icon.png
 │  └─ logo.svg
+├─ claude-desktop/
+│  └─ icon.png
 └─ ddns-go/
    ├─ icon.png
    └─ favicon.ico
@@ -26,6 +28,10 @@ icons/
 
 - `icons/claude/icon.png` — Claude mark (orange `#D97757` starburst, transparent background, 1024×1024), rendered from the official SVG.
 - `icons/claude/logo.svg` — Official Claude mark SVG from claude.ai.
+
+### Claude Desktop
+
+- `icons/claude-desktop/icon.png` — Claude Desktop macOS app icon (white starburst on orange, 1024×1024), exported from the official app.
 
 ### DDNS-GO
 
