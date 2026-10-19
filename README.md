@@ -8,6 +8,8 @@ Personal image hosting and asset repository.
 icons/
 ├─ agentdock/
 │  └─ chatgpt-mcp.png
+├─ claude/
+│  └─ icon.png
 └─ ddns-go/
    ├─ icon.png
    └─ favicon.ico
@@ -18,6 +20,10 @@ icons/
 ### AgentDock
 
 - `icons/agentdock/chatgpt-mcp.png` — AgentDock logo for ChatGPT MCP integration.
+
+### Claude
+
+- `icons/claude/icon.png` — Claude Desktop app icon (1024×1024), exported from the official macOS app.
 
 ### DDNS-GO
 
