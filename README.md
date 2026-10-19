@@ -9,7 +9,8 @@ icons/
 ├─ agentdock/
 │  └─ chatgpt-mcp.png
 ├─ claude/
-│  └─ icon.png
+│  ├─ icon.png
+│  └─ logo.svg
 └─ ddns-go/
    ├─ icon.png
    └─ favicon.ico
@@ -23,7 +24,8 @@ icons/
 
 ### Claude
 
-- `icons/claude/icon.png` — Claude Desktop app icon (1024×1024), exported from the official macOS app.
+- `icons/claude/icon.png` — Claude mark (orange `#D97757` starburst, transparent background, 1024×1024), rendered from the official SVG.
+- `icons/claude/logo.svg` — Official Claude mark SVG from claude.ai.
 
 ### DDNS-GO
 
